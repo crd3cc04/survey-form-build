@@ -1,0 +1,76 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset=UTF-8>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">The Short Survey</h1>
+    <p id="description">We appreciate your time in helping us understand how certain experiences impact emotions. Your feedback is valuable in shaping a deeper understanding of emotional responses.</p>  
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label">Full Name: <input id="name" type="text" placeholder="First Name, Last Name" required></label>
+        <label id="email-label">Email: <input id="email" type="email" placeholder="Enter valid email" required></label>
+        <label id="number-label">Age:  <input id="number" type="number" min="13" max="120" placeholder="20"></label>
+      </fieldset>
+  <section>
+ <p id="instructions">Complete the survey below to the best of your ability and in its entirty.</p>   
+  </section> 
+      <fieldset>
+        <p>1. How would you describe your current emotional state? (Select one from the dropdown) </p>
+        <label id="dropdown-label">
+          <select id="dropdown" name="question1">
+            <option value="">(select one)</option>
+            <option value="1">Calm</option>
+            <option value="2">Anxious</option>
+            <option value="3">Optimistic</option>
+            <option value="4">Frustrated</option>
+            <option value="5">Neutral</option>
+          </select> 
+        </label>   
+      </fieldset> 
+      <fieldset>
+        <p>2. How often do you expereince strong emotional reactions to events in your daily life?</p>
+        <label for="rarely"><input id="rarely" type="radio" name="mindset" value="rarely" checked /> Rarely</label>
+        <label for="sometimes"><input id="sometimes" type="radio" name="mindset" value="sometimes" class="inline"/> Sometimes</label>
+        <label for="often"><input id="often" type="radio" name="mindset" value="often" class="inline" /> Often</label>
+        <label for="always"><input id="always" type="radio" name="mindset" value="always" class="inline" /> Always</label>
+      </fieldset>
+      <fieldset>
+        <p>3. Have you ever experienced a major belief shift that changed your emotional outlook?</p>
+        <label for="yes"><input id="yes" type="radio" name="mindset" value="yes" checked /> Yes</label>
+        <label for="no"><input id="no" type="radio" name="mindset" value="no" class="inline"/> No</label>
+        <label for="not-sure"><input id="not-sure" type="radio" name="mindset" value="not-sure" class="inline" /> Not Sure</label>
+      </fieldset>
+      <fieldset>
+        <p> 4. When faced with a challenging situation, how do you typically feel?</p>
+            <input id="overwhelmed" type="checkbox" name="personality" value="overwhelmed" checked> <label for="overwhelmed">Overwhlemed</label>
+            <input id="anxious" type="checkbox" name="personality" value="anxious"> <label for="anxious">Anxious</label>
+            <input id="determined" type="checkbox" name="personality" value="determined"> <label for="determined">Determined</label>
+            <input id="indifferent" type="checkbox" name="personality" value="indifferent"> <label for="indifferent">Indifferent</label>
+            <input id="hopeful" type="checkbox" name="personality" value="hopeful"> <label for="hopeful">Hopeful</label>
+      </fieldset>
+      <fieldset>
+        <p> 5. How do you usually cope with emotional distress?</p>
+        <textarea id="open-ended" name="open-ended" rows="3" cols="30" placeholder="I cope with stress..."></textarea>
+      </fieldset>
+      </fieldset>
+      <label for="terms-and-conditions">
+        <input class="inline" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" value="terms-and-conditions"/> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+      </label>
+      <input id="submit" type="submit" value="Submit" />    
+    </form>   
+  </body>
+</html>      
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+
