@@ -18,7 +18,7 @@ Technologies Used
 
 How to Use
 	1.	Clone the repository:
- [git clone https://github.com/yourusername/survey-form.git]
+  git clone https://github.com/yourusername/survey-form.git
  	2.	Open the index.html file in a web browser.
 	3.	Customize the form fields as needed.
 	4.	(Optional) Add a backend to process form submissions.
